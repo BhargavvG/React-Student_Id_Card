@@ -38,7 +38,7 @@ export default function App() {
     } else {
       setDetails(true);
     }
-  });
+  }, [student]);
 
   const handleSubmit = (event) => {
     event.preventDefault();
