@@ -17,7 +17,35 @@ export default function App() {
     collegeLogo: "",
   });
 
-  const [students, setStudents] = useState([]);
+  const studentData = [
+    {
+      id: 170890107030,
+      firstName: "Rushil",
+      lastName: "Kapoor",
+      dob: "2021-12-23",
+      gender: "male",
+      image:
+        "https://image.shutterstock.com/image-photo/portrait-smiling-young-college-student-260nw-1192615495.jpg",
+      collegeName: "GTU",
+      collegeAddress: "Ahmedabad,Gujrat",
+      collegeCountry: "India",
+      collegeLogo:
+        "https://cracku.in/latest-govt-jobs/wp-content/uploads/2021/06/GTU-Logo.png",
+    },
+    {
+      id: 170890107013,
+      firstName: "Bhargav",
+      lastName: "G",
+      dob: "2021-10-22",
+      gender: "male",
+      image: "images/student1.jpg",
+      collegeName: "GTU",
+      collegeAddress: "Rajkot",
+      collegeCountry: "india",
+      collegeLogo: "images/collegeLogo.jpg",
+    },
+  ];
+  const [students, setStudents] = useState(studentData);
   const [isValidDetails, setDetails] = useState(false);
   const [isEditted, setisEditted] = useState(false);
 
