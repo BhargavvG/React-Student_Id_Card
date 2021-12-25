@@ -34,8 +34,8 @@ export default function App() {
     },
     {
       id: 170890107013,
-      firstName: "Bhargav",
-      lastName: "G",
+      firstName: "John",
+      lastName: "Doe",
       dob: "2021-10-22",
       gender: "male",
       image: "images/student1.jpg",
